@@ -17,6 +17,7 @@ function sumZero (sortedArray = []) {
 
             }
             else if (sortedArray[start] + sortedArray[end] > 0) {
+                searching = true;
                 end = end -1;
             }
 
